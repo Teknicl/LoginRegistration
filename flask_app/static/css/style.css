@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.regform {
+    width: 220px;
+    height: 600px;
+    background-color: #34393E;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    border-radius: 20px 20px;
+}
+
+.regbutton {
+    width: 170px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 20px;
+    border-radius: 10px 10px;
+    font-size: large;
+
+}
+
+.logform {
+    width: 220px;
+    height: 600px;
+    background-color: #34393E;
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    border-radius: 20px 20px;
+}
+
+.logbutton {
+    width: 170px;
+    height: 40px;
+    background-color: greenyellow;
+    margin-top: 20px;
+    border-radius: 10px 10px;
+    font-size: large;
+}
+
+.error {
+    color: red;
+    font-weight: 800;
+    text-shadow: 1px 1px black;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout {
+    width: 170px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 20px;
+    border-radius: 10px 10px;
+    font-size: large;
+}
+
+.username {
+    color: orange;
+    text-shadow: 1px 2px black;
+}
